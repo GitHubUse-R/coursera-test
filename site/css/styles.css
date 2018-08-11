@@ -132,4 +132,7 @@ h1 {
     .col-md-12 {
       width: calc(100% - 2 * var(--margin));
     }
+    .col-md-12 > div {
+      width: 15%;
+    }
   }
